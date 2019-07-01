@@ -1,0 +1,532 @@
+{
+  "SkillsPassport" : {
+    "Locale" : "en",
+    "DocumentInfo" : {
+      "DocumentType" : "ECV",
+      "CreationDate" : "2018-04-22T21:09:08.758Z",
+      "LastUpdateDate" : "2019-06-26T21:01:31.458Z",
+      "XSDVersion" : "V3.3",
+      "Generator" : "REST_WS",
+      "Comment" : "Europass CV",
+      "EuropassLogo" : false
+    },
+    "PrintingPreferences" : {
+      "ECV" : [ {
+        "name" : "LearnerInfo.Identification.PersonName",
+        "show" : true,
+        "order" : "FirstName Surname"
+      }, {
+        "name" : "LearnerInfo.Identification.Demographics.Birthdate",
+        "show" : false,
+        "format" : "numeric/long"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[0].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[1].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[2].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[3].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[4].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[5].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[6].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[7].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[8].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.WorkExperience[9].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.Education[0].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.Education[1].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo.Education[2].Period",
+        "show" : false,
+        "format" : "text/short"
+      }, {
+        "name" : "LearnerInfo",
+        "show" : false,
+        "order" : "Identification Headline WorkExperience Education Skills Achievement ReferenceTo"
+      } ]
+    },
+    "LearnerInfo" : {
+      "Identification" : {
+        "PersonName" : {
+          "FirstName" : "Joao",
+          "Surname" : "Boto"
+        },
+        "ContactInfo" : {
+          "Address" : {
+            "Contact" : {
+              "Municipality" : "Madrid",
+              "Country" : {
+                "Code" : "ES",
+                "Label" : "Spain"
+              }
+            }
+          },
+          "Email" : {
+            "Contact" : "boto@boto.pro"
+          },
+          "Telephone" : [ {
+            "Contact" : "(34) 693474409",
+            "Use" : {
+              "Code" : "mobile",
+              "Label" : "Mobile"
+            }
+          } ]
+        }
+      },
+      "WorkExperience" : [ {
+        "Period" : {
+          "From" : {
+            "Year" : 2017,
+            "Month" : 9
+          },
+          "Current" : true
+        },
+        "Position" : {
+          "Label" : "Data Architect"
+        },
+        "Activities" : "<p>- Building analytic systems for track user activity, statistics and others</p><p>- Creation of a report application</p><p><strong>Technologies</strong>: Flink, Kudu, Oracle, Golden Gate, Kafka, Cassandra, Kinesis, Amazon S3, Sqoop, Drill, Presto, Druid, Solr, Elasticsearch, Ansible, Pentaho</p>",
+        "Employer" : {
+          "Name" : "idealista",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Madrid",
+                "Country" : {
+                  "Code" : "ES",
+                  "Label" : "Spain"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2013,
+            "Month" : 9
+          },
+          "To" : {
+            "Year" : 2017,
+            "Month" : 8
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Development Team Leader"
+        },
+        "Activities" : "<p>- Project management using agile methodologies like Scrum, Kanban and ScrumBan</p><p>- Implementation and management of a gateway for printing invoices</p><p>- Importing and exporting data feeds</p><p>- Email delivery services and micro-services</p><p>- Integration with internal and external micro-services</p><p><strong>Technologies</strong>: Spring, Spring boot, Storm, Jenkins, Ansible, Oracle, Git, Solr, Elasticsearch</p>",
+        "Employer" : {
+          "Name" : "idealista",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Madrid",
+                "Country" : {
+                  "Code" : "ES",
+                  "Label" : "Spain"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2010,
+            "Month" : 8
+          },
+          "To" : {
+            "Year" : 2013,
+            "Month" : 9
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Analyst Developer"
+        },
+        "Activities" : "<p><strong>Client</strong>:: Idealista</p><p>- Team management</p><p>- Agile methodologies like SCRUM</p><p>- Creation and management of data leads</p><p>- Creation of validation through regular expressions</p><p>- Project analysis and creation of documentation</p><p>- Creation of a gateway for printing invoices</p><p>- Creation and implementation of FTP services</p><p>- Creation and implementation of email delivery services.</p><p>- Creation and implementation of daemons</p><p>- Importing and exporting data</p><p>- WebServices creation and implementation<br /><strong>Technologies</strong>: Java/J2EE, Oracle, Tomcat, Jonas, Subversion, Spring3, Hibernate3, Scrum, Kanban, Srumban, Talend, Linux, Log4j, Osgi, Ibatis, Xml, Maven, IIS, ASP, PL/SQL, SOAP, RESTfull, Git,Jira, Confluence, Stash, SourceTree</p>",
+        "Employer" : {
+          "Name" : "Profile Software Services",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Madrid",
+                "Country" : {
+                  "Code" : "ES",
+                  "Label" : "Spain"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2009,
+            "Month" : 11
+          },
+          "To" : {
+            "Year" : 2010,
+            "Month" : 8
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Informatics Consultant"
+        },
+        "Activities" : "<p><strong>Client</strong>: Indra</p><p>- WebServices creation and implementation</p><p>- EJB&#39;s creation and implementation</p><p>- Creation of reports printing services</p><p><strong>Technologies</strong>: Java/J2EE, WSAD, Oracle, Toad, Subversion, WebServices, Struts, iText, Spring, Log4j</p>",
+        "Employer" : {
+          "Name" : "Bee Solutions",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Madrid",
+                "Country" : {
+                  "Code" : "ES",
+                  "Label" : "Spain"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2009,
+            "Month" : 4
+          },
+          "To" : {
+            "Year" : 2009,
+            "Month" : 11
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "System and Applications Engineer"
+        },
+        "Activities" : "<p><strong>Client</strong>: Sistemas Intermec SA, Equipos y Sistemas SA y Compañía de Instrumentación y Control SL<br />- Requirement analysis for all the group companies</p><p>- Software adaptation to all group companies</p><p>- Creation and implementation of new functionalities</p><p>- Design and implementation of JasperReports using iReport.</p><p>- Implementation of a repository (SubVersion), a wiki (DokuWiki) and a track manager (FlySpray) for project management.</p><p>- Scripts creation (in Linux and Ant) to execute routine procedures</p><p>- User training</p><p>- Creation and maintenance of the repository on SourceForge in the Spain location of Adempiere, being a citizen of this community.</p><p>- Digital signature of certificates through XAdES.<br /><strong>Technologies</strong>: Java/J2EE, JBOSS, Oracle, PostgreSql, Toad, DokuWiki, FlySpray, iReport, Subversion, Linux, JasperReport, Ant, XAdES</p>",
+        "Employer" : {
+          "Name" : "Sistemas Intermec SA",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Madrid",
+                "Country" : {
+                  "Code" : "ES",
+                  "Label" : "Spain"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2008,
+            "Month" : 9
+          },
+          "To" : {
+            "Year" : 2016,
+            "Month" : 9
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Consultant"
+        },
+        "Activities" : "<p>- Web portals developer</p><p>- E-commerce developer</p><p>- Newsletters developer</p><p>- CMS plugin developer</p><p>- Web positioner (SEO, SEM, SMO)</p><p>- Server administrator<br /><strong>Technologies</strong>: PHP, Joomla, Wordpress, osCommerce, Zen Cart, Java/J2EE, Python, Drupal, MySQL, PostgreSQL, Cpanel, Linux</p>",
+        "Employer" : {
+          "Name" : "Sintek EU",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Madrid",
+                "Country" : {
+                  "Code" : "ES",
+                  "Label" : "Spain"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2008,
+            "Month" : 6
+          },
+          "To" : {
+            "Year" : 2009,
+            "Month" : 4
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Applications Engineer"
+        },
+        "Activities" : "<p><strong>Client</strong>: Indra – Ministry of Work<br />- Migration scripts creation for Oracle Database, adapting the old database schema to the new one and creating new tables adapted to the needs</p><p>- Subsystem analysis to sending and receiving files to bancs</p><p>- Files lead to bancs</p><p>- JSP, Servlets and Javascript functions creation</p><p>- Creation of technical design files</p><p>- Data Flow diagrams creation</p><p>- Dynamic search engines and statistics creation<br /><strong>Technologies</strong>: Java/J2EE, JSP, JDBC, Javascript, Oracle, Toad, Struts2, Spring, JBOSS, EDGE Diagrammer, Ibatis, Log4j.</p>",
+        "Employer" : {
+          "Name" : "Pragsis Technologies, SL",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Madrid",
+                "Country" : {
+                  "Code" : "ES",
+                  "Label" : "Spain"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2008,
+            "Month" : 2
+          },
+          "To" : {
+            "Year" : 2008,
+            "Month" : 5
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Application Engineer"
+        },
+        "Activities" : "<p><strong>Client</strong>: Unidad Editorial</p><p>- Development environments and SVN repositories implementation</p><p>- Javascript functions creation.</p><p>- Project analysis and documentation</p><p>- WebServices creation</p><p>- Azman permissions creation and management</p><p>- Servlets creation</p><p>- Oracle tables creation and adaptation</p><p>- Creation of connection pools and methods for accessing Oracle</p><p>- SQL optimization</p><p>- WebSphere to Tomcat server migration</p><p><strong>Technologies</strong>: Java/J2EE, JSP, Servlet, WebServices, JDBC, Oracle, Single Sign On, Azman, Sql Development, Visual SVN, Tortoise, Axis, Tomcat, WSAD, Rational Rose, Javascript, Servlets, SubVersion, Tomcat.</p>",
+        "Employer" : {
+          "Name" : "Pragsis Technologies SL",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Madrid",
+                "Country" : {
+                  "Code" : "ES",
+                  "Label" : "Spain"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2007,
+            "Month" : 8
+          },
+          "To" : {
+            "Year" : 2008,
+            "Month" : 1
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Developer"
+        },
+        "Activities" : "<p><strong>Client</strong>: <strong>VASS</strong></p><p>- Project analysis and documentation</p><p>- Models design and creation</p><p>- CSS and Javascript creation</p><p>- Ldap connectivity and functionality design and implementation</p><p>- Single Sign On with Ldap system creation</p><p>- Struts modules design and implementation</p><p>- Ldap DB design and implementation<br /><strong>Technologies</strong>: Java/J2EE, JSP, Servlets, Struts, WSAD, LDAP, Single Sign On, CSS, JavaScript, Log4j, ZHTML, Spring, WebSphere</p>",
+        "Employer" : {
+          "Name" : "Rawson Consulting",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Madrid",
+                "Country" : {
+                  "Code" : "ES",
+                  "Label" : "Spain"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2006,
+            "Month" : 2
+          },
+          "To" : {
+            "Year" : 2007,
+            "Month" : 7
+          },
+          "Current" : false
+        },
+        "Position" : {
+          "Label" : "Developer"
+        },
+        "Activities" : "<p>- Project:<strong> PFC (Final Career Project)</strong></p><p>Technologies: Python, MSP, Java/J2EE, MySQL</p><p>- Project:<strong> Small bank projects</strong></p><p>Technologies: C, C&#43;&#43;, .NET</p><p>- Project: <strong>Student grades management</strong></p><p>Technologies: C&#43;&#43;, MySQL</p>",
+        "Employer" : {
+          "Name" : "Simbolo - Informática e Gestao, Lds",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Bragança",
+                "Country" : {
+                  "Code" : "PT",
+                  "Label" : "Portugal"
+                }
+              }
+            }
+          }
+        }
+      } ],
+      "Education" : [ {
+        "Period" : {
+          "From" : {
+            "Year" : 2016,
+            "Month" : 9
+          },
+          "To" : {
+            "Year" : 2017,
+            "Month" : 6
+          },
+          "Current" : false
+        },
+        "Title" : "Big data Architecture",
+        "Organisation" : {
+          "Name" : "Kschool",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Madrid",
+                "Country" : {
+                  "Code" : "ES",
+                  "Label" : "Spain"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 2002,
+            "Month" : 9
+          },
+          "To" : {
+            "Year" : 2007,
+            "Month" : 6
+          },
+          "Current" : false
+        },
+        "Title" : "Systems Engineer",
+        "Organisation" : {
+          "Name" : "Escola Superior de Tecnologia e de Gestão - Intituto Politécnico de Bragança",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Bragança",
+                "Country" : {
+                  "Code" : "PT",
+                  "Label" : "Portugal"
+                }
+              }
+            }
+          }
+        }
+      }, {
+        "Period" : {
+          "From" : {
+            "Year" : 1997,
+            "Month" : 9
+          },
+          "To" : {
+            "Year" : 2002,
+            "Month" : 6
+          },
+          "Current" : false
+        },
+        "Title" : "Informatic specialist",
+        "Organisation" : {
+          "Name" : "Escola Secundária C/3º Ciclo Miguel Torga",
+          "ContactInfo" : {
+            "Address" : {
+              "Contact" : {
+                "Municipality" : "Bragança",
+                "Country" : {
+                  "Code" : "PT",
+                  "Label" : "Portugal"
+                }
+              }
+            }
+          }
+        }
+      } ],
+      "Skills" : {
+        "Linguistic" : {
+          "MotherTongue" : [ {
+            "Description" : {
+              "Code" : "pt",
+              "Label" : "Portuguese"
+            }
+          } ],
+          "ForeignLanguage" : [ {
+            "Description" : {
+              "Code" : "es",
+              "Label" : "Spanish"
+            },
+            "ProficiencyLevel" : {
+              "Listening" : "C2",
+              "Reading" : "C2",
+              "SpokenInteraction" : "C2",
+              "SpokenProduction" : "C2",
+              "Writing" : "C2"
+            }
+          }, {
+            "Description" : {
+              "Code" : "en",
+              "Label" : "English"
+            },
+            "ProficiencyLevel" : {
+              "Listening" : "C1",
+              "Reading" : "C1",
+              "SpokenInteraction" : "B2",
+              "SpokenProduction" : "B2",
+              "Writing" : "B2"
+            }
+          } ]
+        }
+      },
+      "Achievement" : [ {
+        "Title" : {
+          "Code" : "courses",
+          "Label" : "Courses"
+        },
+        "Description" : "<p>- Master degree in Agiles Scrum Project Management</p><p>- Specialist in e-invoice and e-signature</p><p>- 2.0 companies management and social networks specialist</p><p>- Networking specialist</p><p>- Consulting IT services specialist</p><p>- SEO, SMM, SEM</p><p>- TICs management</p><p>- Advanced Project Management</p><p>- Basic Project Management</p><p>- XML</p><p>- Ajax: Asynchronous, JavaScript &#43; XML.</p><p>- J2EE – Web development, JSF, Spring.</p><p>- E-commerce</p><p>- Marketing Online</p><p>- Software Engineering and Efficient Tests Design</p><p>- Struts design and patterns</p><p>- Advanced Java</p><p>- Basic Java</p>"
+      } ]
+    },
+    "CoverLetter" : { }
+  }
+}

@@ -1,0 +1,29 @@
+body{
+  background: #ededed;
+
+  color: #363636;
+  font-size: 12px;
+}
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#header{
+  margin-top: -75px;
+}
+
+#photo-profile {
+  max-width: 160px;
+  max-height: 160px;
+}
+
+#photo-profile img{
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 50%;
+  padding: 5px;
+  background: #ededed;
+}
