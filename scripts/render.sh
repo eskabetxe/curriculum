@@ -6,4 +6,7 @@ curl -k https://europass.cedefop.europa.eu/rest/v1/document/to/pdf -H "Content-T
 npm install async
 npm install fs
 npm install hogan.js
+npm install popper.js
+npm install jquery
+
 nodejs template.js

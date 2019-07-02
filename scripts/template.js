@@ -1,6 +1,8 @@
 
   var async = require( "async" );
   var fs = require( "fs" );
+  var jquery = require( "jquery" );
+  var popper = require( "popper.js" );
   var hogan = require( "hogan.js" );
 
   var templateFilePath = "./template.html",
