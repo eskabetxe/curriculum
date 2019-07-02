@@ -2,7 +2,7 @@
   "name": "cv",
   "version": "1.0.0",
   "description": "",
-  "main": "render-template.js",
+  "main": "template.js",
   "dependencies": {
     "hogan.js": "^3.0.2",
     "async": "^3.1.0"

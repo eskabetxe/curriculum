@@ -4,9 +4,9 @@
   var hogan = require( "hogan.js" );
 
   var templateFilePath = "./template.html",
-      europassJsonFilePath = "./data_files/Europass-cv.json",
+      europassJsonFilePath = "./data_files/europass-cv.json",
       skillsJsonFilePath = "./data_files/Skills.json",
-      htmlFilePath = "../cv.html";
+      htmlFilePath = "../index.html";
 
   var readAsync = function ( file, callback ) {
       fs.readFile( file, "utf8", callback );
