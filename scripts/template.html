@@ -33,13 +33,41 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">  
-        <div id="photo-header" class="col text-center">
+      <div  id="header" class="row">
+        <div class="col-xs-12 col-lg-3 col-md-0"></div>
+        <div id="photo-header" class="col-xs-12 col-lg-6 col-md-7 text-center">
           <div id="photo">
             <img src="img/avatar.jpg" alt="avatar">
           </div>
           <div id="text-header">
-            <h1>{{SkillsPassport.LearnerInfo.Identification.PersonName.FirstName}} {{SkillsPassport.LearnerInfo.Identification.PersonName.Surname}}<br><sup>{{SkillsPassport.LearnerInfo.Headline.Description.Label}}</sup></h1>
+            <h1>
+              {{SkillsPassport.LearnerInfo.Identification.PersonName.FirstName}} {{SkillsPassport.LearnerInfo.Identification.PersonName.Surname}}
+              <br>
+              <sup>{{SkillsPassport.LearnerInfo.Headline.Description.Label}}</sup>
+            </h1>
+          </div>
+        </div>
+        <div class="col-xs-12 col-lg-3 col-md-5">
+          <!-- CONTACT -->
+          <div class="contact">
+            {{#SkillsPassport.LearnerInfo.Identification.ContactInfo}}
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right">{{Email.Contact}}</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">{{#Telephone}}{{Contact}} {{/Telephone}}</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
+              <div class="title only pull-right">
+                {{Address.Contact.Municipality}}
+                -
+                {{Address.Contact.Country.Label}}
+              </div>
+            </div>
+            {{/SkillsPassport.LearnerInfo.Identification.ContactInfo}}
           </div>
         </div>
       </div>
@@ -62,47 +90,26 @@
             </div>
             {{/SkillsPassport.LearnerInfo.WorkExperience}}
           </div>
-          <!-- EDUCATION -->
-          <div class="box">
-            <h2>Education</h2>
-            {{#SkillsPassport.LearnerInfo.Education}}
-            <div class="education clearfix">                
-                <div class="course">{{Title}}</div>
-                {{#Organisation}}
-                <div class="school">{{Name}}</div>
-                <div class="where">
-                  {{ContactInfo.Address.Contact.Municipality}}
-                  -
-                  {{ContactInfo.Address.Contact.Country.Label}}
-                </div>
-                {{/Organisation}}
-                <div class="year">{{#periodText}}{{Period}}{{/periodText}}</div>
-            </div>
-            {{/SkillsPassport.LearnerInfo.Education}}
-          </div>
+
         </div>
         <div class="col-xs-12 col-sm-5">
-          <!-- CONTACT -->
-          <div class="box contact clearfix">
-            {{#SkillsPassport.LearnerInfo.Identification.ContactInfo}}
-            <h2>Contact</h2>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right">{{Email.Contact}}</div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
-              <div class="title only pull-right">{{#Telephone}}{{Contact}} {{/Telephone}}</div>
-            </div> 
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
-              <div class="title only pull-right">
-                {{Address.Contact.Municipality}}
+          <!-- EDUCATION -->
+          <div class="box educationbox">
+            <h2>Education</h2>
+            {{#SkillsPassport.LearnerInfo.Education}}
+            <div class="education clearfix">
+              <div class="course">{{Title}}</div>
+              {{#Organisation}}
+              <div class="school">{{Name}}</div>
+              <div class="where">
+                {{ContactInfo.Address.Contact.Municipality}}
                 -
-                {{Address.Contact.Country.Label}}
+                {{ContactInfo.Address.Contact.Country.Label}}
               </div>
+              {{/Organisation}}
+              <div class="year">{{#periodText}}{{Period}}{{/periodText}}</div>
             </div>
-            {{/SkillsPassport.LearnerInfo.Identification.ContactInfo}}
+            {{/SkillsPassport.LearnerInfo.Education}}
           </div>
           <div class="box">
             <h2>Social profiles</h2>
@@ -137,8 +144,9 @@
               </div>
             </div>
           </div>
+
           <!-- SKILLS -->
-          <div class="box">
+         <!-- <div class="box">
             <h2>Skills</h2>
             <div class="skills">
               <div class="item-skills" data-percent="1.00">HTML</div>
@@ -154,14 +162,14 @@
                 <div class="legend-right legend"  data-percent="12.5">Expert</div>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- HOBBIES -->
-          <div class="box">
+         <!-- <div class="box">
             <h2>Hobbies</h2>
             <div class="hobby">Photography</div>
             <div class="hobby">Fitness</div>
             <div class="hobby">Programming</div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
