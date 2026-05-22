@@ -1,0 +1,308 @@
+personal:
+  name: "João Boto"
+  location: "Madrid, Spain"
+  phone: "(+34) 693474409"
+  email: "boto@boto.pro"
+
+social:
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/joaoboto/"
+    icon: "fa-linkedin-square"
+  - name: "GitHub"
+    url: "https://github.com/eskabetxe"
+    icon: "fa-github-square"
+
+about: >-
+  Staff Data Software Engineer with 18+ years building highly scalable,
+  real-time data platforms that eliminate critical bottlenecks. Specialised
+  in streaming architecture (Apache Flink, Kafka), cloud-native
+  infrastructure (AWS, Kubernetes) and developer experience, with deep
+  hands-on expertise in Trino, Iceberg, Java and Python. Active open-source
+  contributor (Flink, Trino; former PMC of Apache Bahir) with a track
+  record of shipping self-serve tooling and championing 'shift-left' Data
+  Mesh strategies. Drive engineering teams through major technical
+  evolutions, ensuring infrastructure is not only robust and scalable but
+  fundamentally easier for domain teams to use.
+
+skills:
+  - "Data Mesh & Shift-Left Strategy"
+  - "Cross-Functional Technical Leadership"
+  - "Cloud FinOps & Cost Optimization"
+  - "Streaming Architecture"
+  - "MLOps & AI Enablement"
+  - "Engineering Mentorship"
+  - "Data Governance & Compliance"
+
+experience:
+  - company: "WellHub (Gympass)"
+    roles:
+      - title: "Staff Data Software Engineer"
+        period:
+          from: "03/04/2023"
+          to: "CURRENT"
+        technologies:
+          - "Apache Flink"
+          - "FlinkCdc"
+          - "Apache Paimon"
+          - "Apache Iceberg"
+          - "Trino"
+          - "Apache Kafka"
+          - "Quarkus"
+          - "Crossplane"
+          - "Kubernetes"
+          - "AWS"
+          - "Kubeflow"
+          - "SQLFluff"
+        highlights:
+          - title: "Data Mesh & Shift-Left Strategy"
+            description: "Championed a decentralized Data Mesh architecture by building self-serve platform capabilities. This drove a strategic 'shift-left', transferring pipeline ownership and data responsibility to domain engineering teams while providing continuous platform support and architectural guidance."
+          - title: "Data Lake & Event Pipeline Modernization"
+            description: "Architected the evolution of the data lake for real-time streaming, driving the migration from Hive to Iceberg and currently to Paimon, contributing upstream PRs to the Trino-Paimon connector. Led the migration of 500+ topics from a legacy EL system to a modern platform with multi-table event transformation, enabling teams to materialize multiple tables per event source."
+          - title: "Real-Time CDC Architecture & DR Optimization"
+            description: "Spearheaded the shift from 200 legacy batch extractions to a near real-time CDC ecosystem (contributing upstream PRs to FlinkCdc and Flink-JDBC), reducing data latency from D-1 to NRT — 25% of legacy extractions already migrated. Further re-architected CDC snapshotting to target AWS Aurora Global read-replicas, cutting initial snapshot times from ~1 hour to ~10 minutes while protecting production performance and improving disaster recovery resilience."
+          - title: "Developer Experience (DX) & CI/CD Automation"
+            description: "Built an internal developer portal and a companion GitHub App to abstract complex GitOps processes and automate CI/CD workflows. Leveraging Crossplane, this self-serve tooling deployed data pipelines across ~30 Kubernetes clusters while integrating SQLFluff (with upstream contributions) to strictly enforce SQL standards and pipeline governance."
+          - title: "ML Platform & MLOps Tooling"
+            description: "Drove the evaluation and PoC selection of a unified Machine Learning platform for Data Science teams. After benchmarking Metaflow and other alternatives, deployed Kubeflow to standardize AI workloads and model lifecycles."
+          - title: "Cloud FinOps & Cost Optimization"
+            description: "Drove infrastructure cost-reduction initiatives by migrating Kubernetes workloads from AMD to ARM and dynamically right-sizing Flink job resources, reducing cloud expenditure by ~30% without sacrificing pipeline latency."
+          - title: "Data Governance & Privacy"
+            description: "Built automated data classification frameworks to strictly enforce GDPR compliance, applying dynamic data masking for Personally Identifiable Information (PII) directly at the query layer."
+
+  - company: "Ultra Tendency"
+    roles:
+      - title: "Data Architect"
+        period:
+          from: "01/10/2022"
+          to: "31/03/2023"
+        technologies:
+          - "Python"
+          - "AWS"
+          - "Terraform"
+          - "Scrum"
+          - "Kanban"
+        highlights:
+          - title: "Team Leadership & Mentorship"
+            description: "Guided and mentored an engineering team through Scrum/Kanban methodologies, upskilling developers to move beyond cloud-coupled batch patterns into modern, event-driven streaming concepts."
+          - title: "Cloud-Agnostic Re-architecture"
+            description: "Redesigned and rewrote core data workflows, advocating for decoupled cloud-agnostic principles that drastically improved execution speed while reducing vendor lock-in."
+
+  - company: "idealista"
+    roles:
+      - title: "Data Architect"
+        period:
+          from: "01/08/2017"
+          to: "30/09/2022"
+        technologies:
+          - "Apache Flink"
+          - "Apache Kafka"
+          - "Oracle GoldenGate"
+          - "Trino"
+          - "Apache Kudu"
+          - "Apache Cassandra"
+          - "AWS Kinesis"
+          - "Amazon S3"
+          - "Apache Solr"
+          - "Elasticsearch"
+          - "Redis"
+          - "Ansible"
+        highlights:
+          - title: "Foundational Data Architecture & Streaming Advocacy"
+            description: "Founded idealista's data engineering practice and acted as the core internal advocate for Apache Flink and streaming paradigms. Led the cultural and technical shift across engineering teams from legacy batch processing (Pentaho) to a modern, Near Real-Time (NRT) event-driven ecosystem that became the foundation of all subsequent data teams."
+          - title: "Enterprise CDC & Core Infrastructure"
+            description: "Co-managed enterprise-wide Kafka infrastructure and Oracle GoldenGate implementations alongside the DBA team. Built high-throughput CDC pipelines on Apache Flink to extract database events and reliably land them into the Data Lake."
+          - title: "Real-Time BI & Self-Serve Tooling"
+            description: "Crafted Flink-based self-serve streaming tools that empowered BI and Data Engineering teams to migrate operational dashboards from delayed batch loads to NRT, reflecting business activity in near-real-time."
+          - title: "MLOps & Feature Store Implementation"
+            description: "Architected and rolled out a scalable Feature Store on top of the CDC streaming foundation. This critical infrastructure accelerated model deployment and provided essential tooling for a newly acquired large-scale Data Science organization (Tercero-B) as data became idealista's core asset."
+          - title: "Recommendation Engine & Search Optimization"
+            description: "Played a pivotal technical role in productionizing an intelligent recommendation engine and optimizing core property search and listings utilizing Solr and Elasticsearch."
+
+      - title: "Development Team Leader"
+        period:
+          from: "02/09/2013"
+          to: "31/07/2017"
+        technologies:
+          - "Apache Storm"
+          - "Apache Flink"
+          - "Spring"
+          - "Spring Boot"
+          - "Oracle"
+          - "Jenkins"
+          - "Ansible"
+          - "Apache Solr"
+          - "Elasticsearch"
+          - "Git"
+        highlights:
+          - title: "Engineering Leadership & Platform Evolution"
+            description: "Took over official leadership of the agile engineering team (Scrum/Kanban) responsible for all enterprise data integrations after being formally contracted directly by idealista. Architected the platform's evolution from legacy Java batch processing to Near Real-Time (NRT) streaming, first with Apache Storm and later migrating selected processes to Apache Flink."
+          - title: "Massive Scale Ingestion (International)"
+            description: "Built and scaled NRT import pipelines that processed 80% of all professional real estate listings across Spain, Italy and Portugal. Leveraged native Portuguese to directly negotiate and establish technical integration agreements with Portuguese software vendors."
+          - title: "Global B2B Data Export & Transformation"
+            description: "Architected outbound data feed systems integrating with 20+ international and national portals, orchestrating the continuous export of real estate data from Spain, Italy and Portugal to worldwide markets. Orchestrated complex NRT data transformations to adapt to disparate external formats, ensuring listing accuracy and drastically reducing customer complaints."
+          - title: "Bidirectional Lead Routing & Microservices"
+            description: "Built integration microservices using Spring Boot and Elasticsearch to route high-volume customer leads and contacts bidirectionally between idealista, external portals and real estate agencies."
+
+      - title: "Analyst Developer"
+        via: "Profile Software Services"
+        period:
+          from: "23/08/2010"
+          to: "30/08/2013"
+        technologies:
+          - "Java/J2EE"
+          - "Spring"
+          - "Hibernate"
+          - "Apache Storm"
+          - "Oracle"
+          - "Tomcat"
+          - "Subversion"
+          - "Git"
+          - "PL/SQL"
+          - "REST"
+          - "SOAP"
+          - "Talend"
+          - "Linux"
+          - "Scrum"
+          - "Kanban"
+        highlights:
+          - title: "Initial Win & Trust Building"
+            description: "Shipped a highly reliable invoice export gateway for an external provider. Delivered a flawless production launch from day one that established immediate technical trust with idealista stakeholders, leading to expanded responsibilities."
+          - title: "Legacy System Rescue & Scalability"
+            description: "Took ownership of a highly unstable legacy B2B data ingestion system used initially by banks and a small set of real-estate software providers. Architected a robust redesign in Java/J2EE that stabilized the platform and directly enabled the commercial team to secure new integration agreements with B2B real estate software vendors."
+          - title: "Foundational Streaming Adoption"
+            description: "Introduced the team's first event-driven processing patterns by redesigning batch FTP integrations with Apache Storm, transitioning the platform from overnight massive loads to continuous processing triggered by vendor file drops."
+          - title: "Expansion & Agile Leadership"
+            description: "Due to the overwhelming success of the inbound pipelines, assumed full responsibility for outbound exports across Portugal, Spain and Italy to worldwide markets. Began managing a growing engineering team using Scrum/Kanban, leading directly to an in-house promotion to Development Team Leader at idealista."
+
+  - company: "Indra"
+    roles:
+      - title: "Informatics Consultant"
+        via: "Bee Solutions"
+        period:
+          from: "09/12/2009"
+          to: "25/08/2010"
+        technologies:
+          - "Java/J2EE"
+          - "Spring"
+          - "Struts"
+          - "Oracle"
+          - "WSAD"
+          - "Subversion"
+          - "iText"
+        highlights:
+          - title: "Backend Development"
+            description: "Built and shipped WebServices, EJBs and report printing services using Java/J2EE and Spring."
+
+  - company: "Sistemas Intermec SA"
+    roles:
+      - title: "System and Applications Engineer"
+        period:
+          from: "13/04/2009"
+          to: "22/11/2009"
+        technologies:
+          - "Java/J2EE"
+          - "JBoss"
+          - "Oracle"
+          - "PostgreSQL"
+          - "JasperReports"
+          - "Subversion"
+          - "Linux"
+          - "Ant"
+          - "XAdES"
+        highlights:
+          - title: "Infrastructure & Analysis"
+            description: "Directed requirement analysis, software adaptation and rolled out project management infrastructure (Subversion, DokuWiki) across group companies."
+          - title: "Open-Source Contribution"
+            description: "Maintained the Spanish locale of Adempiere (open-source ERP) on SourceForge as an active community member — an early start to a long-standing open-source involvement."
+
+  - company: "Pragsis Technologies, SL"
+    roles:
+      - title: "Applications Engineer"
+        client: "Indra – Ministry of Work"
+        period:
+          from: "01/07/2008"
+          to: "10/04/2009"
+        technologies:
+          - "Java/J2EE"
+          - "JSP"
+          - "Struts2"
+          - "Spring"
+          - "Oracle"
+          - "JBoss"
+          - "iBatis"
+          - "JDBC"
+        highlights:
+          - title: "Database Migration & Design"
+            description: "Authored complex Oracle database migrations, adapting legacy schemas and crafting new data structures."
+          - title: "Financial B2B Integrations"
+            description: "Analyzed and built secure file transfer subsystems for banking integrations, alongside dynamic search and analytics engines using Java/J2EE and Spring."
+      - title: "Applications Engineer"
+        client: "Unidad Editorial"
+        period:
+          from: "18/02/2008"
+          to: "30/06/2008"
+        technologies:
+          - "Java/J2EE"
+          - "WebServices"
+          - "Oracle"
+          - "Tomcat"
+          - "WebSphere"
+          - "Servlets"
+          - "Azman"
+          - "Axis"
+        highlights:
+          - title: "Infrastructure Migration"
+            description: "Drove the platform migration from WebSphere to Tomcat and established the foundational SVN development environments."
+          - title: "Backend Optimization & Security"
+            description: "Optimized core Oracle SQL procedures, built WebServices and rolled out Single Sign-On (SSO) architectures managing Azman permissions."
+
+  - company: "Vass"
+    roles:
+      - title: "Developer"
+        via: "Rawson Consulting"
+        period:
+          from: "17/06/2007"
+          to: "15/02/2008"
+        technologies:
+          - "Java/J2EE"
+          - "Struts"
+          - "Spring"
+          - "LDAP"
+          - "WSAD"
+          - "WebSphere"
+          - "JSP"
+        highlights:
+          - title: "Security & Access Management"
+            description: "Architected and rolled out Single Sign-On systems with LDAP connectivity using Java/J2EE and Struts."
+
+languages:
+  - name: "Portuguese"
+    level: "Native"
+  - name: "Spanish"
+    level: "Fluent (C2)"
+  - name: "English"
+    level: "Advanced (C1)"
+
+education:
+  - title: "Big Data Architecture"
+    institution: "KSchool"
+    period:
+      from: "08/2016"
+      to: "06/2017"
+  - title: "Bachelor's in Computer Systems Engineering"
+    institution: "Escola Superior de Tecnologia e de Gestão — Instituto Politécnico de Bragança"
+    period:
+      from: "09/2002"
+      to: "06/2007"
+
+certifications:
+  - title: "Data Streaming Engineer - Apache Flink"
+    institution: "Confluent"
+    period:
+      from: "02/2026"
+      to: "02/2028"
+  - title: "Data Streaming Engineer Foundations"
+    institution: "Confluent"
+    period:
+      from: "02/2026"
+      to: "02/2028"
